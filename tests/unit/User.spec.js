@@ -1,4 +1,4 @@
-import { shallowMount, mount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import User from "@/components/User.vue";
 global.fetch = require("jest-fetch-mock");
 
