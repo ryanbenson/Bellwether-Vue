@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <Header/>
     <div class="about">
       <h1>This is an about page</h1>
     </div>
@@ -11,9 +10,6 @@
 import Header from "@/components/Header.vue";
 
 export default {
-  name: "about",
-  components: {
-    Header
-  }
+  name: "about"
 };
 </script>
