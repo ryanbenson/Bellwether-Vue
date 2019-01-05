@@ -48,6 +48,9 @@ export default {
       if (isEmpty(query)) this.showError("Please enter more than spaces");
       if (containsBannedChars(query))
         this.showError("The following characters are not allowed: (>,<)");
+
+      this.addTerm(query);
+      this.query = "";
     },
 
     resetError() {
@@ -59,6 +62,10 @@ export default {
       this.error = true;
       this.errorMessage = message;
       return false;
+    },
+
+    addTerm(term) {
+      this.terms.push(term);
     }
   }
 };
