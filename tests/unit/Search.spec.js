@@ -78,4 +78,32 @@ describe("Search.vue", () => {
     form.trigger("submit");
     expect(wrapper.find(".get-started").exists()).toBeFalsy();
   });
+
+  it("shows search terms when submitted", () => {
+    const wrapper = mount(Search);
+    const terms = ["software", "green energy"];
+    const form = wrapper.find("form");
+
+    wrapper.setData({ query: terms[0] });
+    form.trigger("submit");
+
+    wrapper.setData({ query: terms[1] });
+    form.trigger("submit");
+
+    expect(wrapper.findAll(".search-term").length).toEqual(terms.length);
+  });
+
+  it("removes search terms if you click on a term", () => {
+    const wrapper = mount(Search);
+    const terms = ["software"];
+    const form = wrapper.find("form");
+
+    wrapper.setData({ query: terms[0] });
+    form.trigger("submit");
+
+    const term = wrapper.find(".search-term");
+    term.trigger("click");
+
+    expect(wrapper.findAll(".search-term").length).toEqual(0);
+  });
 });

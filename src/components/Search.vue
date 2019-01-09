@@ -8,6 +8,9 @@
     </form>
 
     <GetStarted v-if="!hasTerms"/>
+    <ul class="terms-wrap" v-else>
+      <SearchTerm v-for="(term, i) in terms" :key="i" :term="term" v-on:remove="removeTerm(i)"></SearchTerm>
+    </ul>
   </div>
 </template>
 
@@ -15,12 +18,14 @@
 import { isEmpty, containsBannedChars } from "@/libs/validation";
 import ErrorMessage from "@/components/ErrorMessage.vue";
 import GetStarted from "@/components/GetStarted.vue";
+import SearchTerm from "@/components/SearchTerm.vue";
 
 export default {
   name: "User",
   components: {
     ErrorMessage,
-    GetStarted
+    GetStarted,
+    SearchTerm
   },
 
   data() {
@@ -49,9 +54,15 @@ export default {
       this.resetError();
 
       const { query } = this;
-      if (isEmpty(query)) this.showError("Please enter more than spaces");
-      if (containsBannedChars(query))
+      if (isEmpty(query)) {
+        this.showError("Please enter more than spaces");
+        return false;
+      }
+
+      if (containsBannedChars(query)) {
         this.showError("The following characters are not allowed: (>,<)");
+        return false;
+      }
 
       this.addTerm(query);
       this.query = "";
@@ -65,11 +76,14 @@ export default {
     showError(message) {
       this.error = true;
       this.errorMessage = message;
-      return false;
     },
 
     addTerm(term) {
       this.terms.push(term);
+    },
+
+    removeTerm(i) {
+      this.terms.splice(i, 1);
     }
   },
 
@@ -82,4 +96,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.terms-wrap {
+  margin: 0;
+  padding: 20px 0 0 0;
+
+  li:last-child {
+    margin-right: 0;
+  }
+}
 </style>
