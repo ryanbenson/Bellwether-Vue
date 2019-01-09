@@ -6,17 +6,21 @@
       <input type="text" name="query" placeholder="Search for..." v-model="query">
       <button type="submit" :disabled="searching">Search{{searching ? 'ing...' : ''}}</button>
     </form>
+
+    <GetStarted v-if="!hasTerms"/>
   </div>
 </template>
 
 <script>
 import { isEmpty, containsBannedChars } from "@/libs/validation";
 import ErrorMessage from "@/components/ErrorMessage.vue";
+import GetStarted from "@/components/GetStarted.vue";
 
 export default {
   name: "User",
   components: {
-    ErrorMessage
+    ErrorMessage,
+    GetStarted
   },
 
   data() {
@@ -66,6 +70,12 @@ export default {
 
     addTerm(term) {
       this.terms.push(term);
+    }
+  },
+
+  computed: {
+    hasTerms() {
+      return this.terms.length > 0 ? true : false;
     }
   }
 };

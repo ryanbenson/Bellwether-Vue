@@ -1,5 +1,6 @@
 import { mount } from "@vue/test-utils";
 import Search from "@/components/Search.vue";
+import GetStarted from "@/components/GetStarted.vue";
 
 describe("Search.vue", () => {
   it("displays the search form", () => {
@@ -60,5 +61,21 @@ describe("Search.vue", () => {
 
     expect(wrapper.vm.query).toEqual("");
     expect(wrapper.find("input").attributes("value")).toBeFalsy();
+  });
+
+  it("displays get started message when there are no terms", () => {
+    const wrapper = mount(Search);
+    const getStarted = wrapper.find(GetStarted);
+    expect(getStarted.is(GetStarted)).toBe(true);
+  });
+
+  it("hides display of get started message when there are terms", () => {
+    const wrapper = mount(Search);
+    const terms = ["software"];
+    const form = wrapper.find("form");
+
+    wrapper.setData({ query: terms[0] });
+    form.trigger("submit");
+    expect(wrapper.find(".get-started").exists()).toBeFalsy();
   });
 });
