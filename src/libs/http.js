@@ -10,4 +10,14 @@ const getAvatar = async () => {
   return data;
 };
 
-export { getAvatar };
+const getList = async (terms, page) => {
+  const apiKey = process.env.VUE_APP_TRAACKR_API_KEY;
+  const api = "http://api.traackr.com/1.0/influencers/search";
+  const apiUrl = `${api}?api_key=${apiKey}&keywords=${terms}&page=${page}`;
+
+  const response = await fetch(apiUrl);
+  const data = await response.json();
+  return data;
+};
+
+export { getAvatar, getList };

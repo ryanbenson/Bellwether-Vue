@@ -1,0 +1,1252 @@
+{
+  "page_info": {
+    "has_more": true,
+    "current_page": 0,
+    "next_page": 1,
+    "page_count": 25,
+    "results_count": 25,
+    "total_results_count": 10000,
+    "total_results_count_capped": true
+  },
+  "influencers": [
+    {
+      "uid": "8ecf5321c0b10d1be7c3c7644cb81dcb",
+      "name": "Frank Van Puffelen",
+      "description": "Firebaser at Google.",
+      "primary_affiliation": "Google",
+      "title": "Developer Programs Engineer",
+      "is_brand": false,
+      "location": "San Francisco, San Francisco County, California, United States",
+      "thumbnail_url": "http://pbs.twimg.com/profile_images/501368041267933187/gNk85_-j.jpeg",
+      "avatar": {
+        "large": "http://pbs.twimg.com/profile_images/501368041267933187/gNk85_-j.jpeg",
+        "medium": "http://pbs.twimg.com/profile_images/501368041267933187/gNk85_-j_bigger.jpeg",
+        "small": "http://pbs.twimg.com/profile_images/501368041267933187/gNk85_-j_normal.jpeg"
+      },
+      "reach": "0.98",
+      "resonance": "0.99",
+      "audience": "457433",
+      "relevance": "0.94",
+      "trends": {
+        "platform_audience": {
+          "net": 1313.24159021,
+          "percent": 0.0186,
+          "current": 71888.90825688,
+          "previous": 70575.66666667
+        },
+        "twitter_followers_count": {
+          "net": 90.0,
+          "percent": 0.023,
+          "current": 3999.0,
+          "previous": 3909.0
+        },
+        "stackoverflow_monthly_reach": {
+          "net": 1223.24159021,
+          "percent": 0.0183,
+          "current": 67889.90825688,
+          "previous": 66666.66666667
+        }
+      },
+      "platform_data": {
+        "pinterest.com": { "audience_sum": 18 },
+        "stackoverflow.com": { "audience_sum": 67889 },
+        "twitter.com": { "audience_sum": 3999, "eng_rate_max": 0.0017 },
+        "youtube.com": { "audience_sum": 14 }
+      },
+      "post_hits": "1071"
+    },
+    {
+      "uid": "6c1de8acf2903c3bab12ad011e5b279a",
+      "name": "Pinal Dave",
+      "description": "SQLAuthority Founder - SQL Server MVP",
+      "primary_affiliation": "SQLAuthority.com",
+      "title": "SQL Server Performance Tuning Consultant",
+      "is_brand": false,
+      "location": "Bangalore, Karnataka, India",
+      "thumbnail_url": "http://pbs.twimg.com/profile_images/324386189/pinalsmall.jpg",
+      "avatar": {
+        "large": "http://pbs.twimg.com/profile_images/324386189/pinalsmall.jpg",
+        "medium": "http://pbs.twimg.com/profile_images/324386189/pinalsmall_bigger.jpg",
+        "small": "http://pbs.twimg.com/profile_images/324386189/pinalsmall_normal.jpg"
+      },
+      "reach": "0.85",
+      "resonance": "0.79",
+      "audience": "108760",
+      "relevance": "0.95",
+      "trends": {
+        "youtube_subscribers": {
+          "net": 77.0,
+          "percent": 0.0077,
+          "current": 10043.0,
+          "previous": 9966.0
+        },
+        "platform_audience": {
+          "net": 37.0,
+          "percent": 3.0e-4,
+          "current": 108760.0,
+          "previous": 108723.0
+        },
+        "twitter_followers_count": {
+          "net": 60.0,
+          "percent": 0.003,
+          "current": 20336.0,
+          "previous": 20276.0
+        },
+        "facebook_pages_fans": {
+          "net": -100.0,
+          "percent": -0.0013,
+          "current": 78381.0,
+          "previous": 78481.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 78381, "eng_rate_max": 1.0e-4 },
+        "twitter.com": { "audience_sum": 20336, "eng_rate_max": 1.0e-4 },
+        "youtube.com": { "audience_sum": 10043 }
+      },
+      "post_hits": "4307"
+    },
+    {
+      "uid": "75ad733c18804a8fb982470ccd872d63",
+      "name": "Alex Mamo",
+      "description": "Stack Overflow: https://stackoverflow.com/users/5246885/alex-mamo\nBadges: https://www.youracclaim.com/users/alexandru-mamo\nReal Time Shopping List App: https://play.google.com/store/apps/details?id=ro.alexmamo.shoppinglist",
+      "primary_affiliation": "Digital Dreams SRL",
+      "title": "Java/Android/Firebase Programmer",
+      "is_brand": false,
+      "location": "Constanța County, Romania",
+      "thumbnail_url": "https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_200x200_v1.png",
+      "avatar": {
+        "large": "https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_200x200_v1.png",
+        "medium": "https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_200x200_v1.png",
+        "small": "https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_200x200_v1.png"
+      },
+      "reach": "0.85",
+      "resonance": "0.99",
+      "audience": "55462",
+      "relevance": "0.91",
+      "trends": {
+        "stackoverflow_monthly_reach": {
+          "net": 996.79487179,
+          "percent": 0.0659,
+          "current": 16125.0,
+          "previous": 15128.20512821
+        },
+        "platform_audience": {
+          "net": 996.79487179,
+          "percent": 0.0659,
+          "current": 16125.0,
+          "previous": 15128.20512821
+        }
+      },
+      "platform_data": {
+        "pinterest.com": { "audience_sum": 0 },
+        "stackoverflow.com": { "audience_sum": 16125 },
+        "youtube.com": { "audience_sum": 208, "eng_rate_max": 0.7042 }
+      },
+      "post_hits": "935"
+    },
+    {
+      "uid": "e9b4c5faf9924fe1b4653a491de6f584",
+      "name": "Tanat Tonguthaisri",
+      "description": "#DeepLearning for #CyberSecurity, #DataScience for #TechnologyTransfer & #AntiMoneyLaundering, #WorldQuant #FinancialEngineering & #WQU #DataIncubator student.",
+      "primary_affiliation": "National Science and Technology Development Agency (NSTDA)",
+      "title": "ITPEC Ambassador, exam organizer and evangelist",
+      "is_brand": false,
+      "location": "Bangkok, Bangkok, Thailand",
+      "thumbnail_url": "https://scontent-lax3-2.cdninstagram.com/vp/939a59f0e30e48197b9b87d778470952/5CD80A2D/t51.2885-19/11348369_854368027986131_665927009_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-lax3-2.cdninstagram.com/vp/939a59f0e30e48197b9b87d778470952/5CD80A2D/t51.2885-19/11348369_854368027986131_665927009_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "medium": "https://scontent-lax3-2.cdninstagram.com/vp/939a59f0e30e48197b9b87d778470952/5CD80A2D/t51.2885-19/11348369_854368027986131_665927009_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "small": "https://scontent-lax3-2.cdninstagram.com/vp/939a59f0e30e48197b9b87d778470952/5CD80A2D/t51.2885-19/11348369_854368027986131_665927009_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com"
+      },
+      "reach": "0.84",
+      "resonance": "0.83",
+      "audience": "50782",
+      "relevance": "0.93",
+      "trends": {
+        "instagram_followers": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 657.0,
+          "previous": 657.0
+        },
+        "youtube_subscribers": {
+          "net": 18.0,
+          "percent": 0.0137,
+          "current": 1336.0,
+          "previous": 1318.0
+        },
+        "platform_audience": {
+          "net": 42.0,
+          "percent": 0.006,
+          "current": 7091.0,
+          "previous": 7049.0
+        },
+        "twitter_followers_count": {
+          "net": 10.0,
+          "percent": 0.0075,
+          "current": 1347.0,
+          "previous": 1337.0
+        },
+        "pinterest_followers": {
+          "net": 14.0,
+          "percent": 0.0037,
+          "current": 3751.0,
+          "previous": 3737.0
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 657 },
+        "pinterest.com": { "audience_sum": 3751 },
+        "stackoverflow.com": { "audience_sum": 0 },
+        "twitter.com": { "audience_sum": 1336, "eng_rate_max": 1.0e-4 },
+        "youtube.com": { "audience_sum": 1339 }
+      },
+      "post_hits": "1355"
+    },
+    {
+      "uid": "e0c58553f8a04005987b31ee0dc424fa",
+      "name": "Craig Brown",
+      "description": "#Technology & #Business #Consultant (#techpreneur), #Dad, #Entrepreneur, #STEM, #Philanthropist, #CancerSurvivor + #BigData #SME http://www.craigbrownphd.com",
+      "primary_affiliation": "Big Data Consultant",
+      "title": "Senior Big Data Architect & Data Science Consultant",
+      "is_brand": false,
+      "location": "Houston, Harris County, Texas, United States",
+      "thumbnail_url": "https://scontent-amt2-1.cdninstagram.com/vp/7403f89c7a7a7d34bbf9b9e61a31bc08/5CD48F03/t51.2885-19/s320x320/39942074_965521160321146_8109945724357050368_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-amt2-1.cdninstagram.com/vp/7403f89c7a7a7d34bbf9b9e61a31bc08/5CD48F03/t51.2885-19/s320x320/39942074_965521160321146_8109945724357050368_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com",
+        "medium": "https://scontent-amt2-1.cdninstagram.com/vp/7403f89c7a7a7d34bbf9b9e61a31bc08/5CD48F03/t51.2885-19/s320x320/39942074_965521160321146_8109945724357050368_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com",
+        "small": "https://scontent-amt2-1.cdninstagram.com/vp/7403f89c7a7a7d34bbf9b9e61a31bc08/5CD48F03/t51.2885-19/s320x320/39942074_965521160321146_8109945724357050368_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com"
+      },
+      "reach": "0.95",
+      "resonance": "0.9",
+      "audience": "243569",
+      "relevance": "0.88",
+      "trends": {
+        "instagram_followers": {
+          "net": -97.0,
+          "percent": -0.0122,
+          "current": 7855.0,
+          "previous": 7952.0
+        },
+        "platform_audience": {
+          "net": -1212.0,
+          "percent": -0.0049,
+          "current": 243772.0,
+          "previous": 244984.0
+        },
+        "twitter_followers_count": {
+          "net": -1100.0,
+          "percent": -0.0055,
+          "current": 197377.0,
+          "previous": 198477.0
+        },
+        "facebook_pages_fans": {
+          "net": -15.0,
+          "percent": -4.0e-4,
+          "current": 38540.0,
+          "previous": 38555.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 38540, "eng_rate_max": 0.0 },
+        "instagram.com": { "audience_sum": 7855 },
+        "pinterest.com": { "audience_sum": 0 },
+        "twitter.com": { "audience_sum": 197163, "eng_rate_max": 0.0 },
+        "youtube.com": { "audience_sum": 11, "eng_rate_max": 0.0923 }
+      },
+      "post_hits": "1725"
+    },
+    {
+      "uid": "aed48736b4b04b4db6a37b309bcf1696",
+      "name": "Paul Bratby",
+      "description": "One Stop Portal for All Your Financial Market #Trading RESOURCES IN ONE PLACE - Whether trading #stocks #forex #commodities #futures #options & More #mtbnews",
+      "primary_affiliation": "My Buddy Holdings",
+      "title": "CEO Founder",
+      "is_brand": false,
+      "location": "Mijas, Málaga, Andalucía, Spain",
+      "thumbnail_url": "https://scontent-lax3-2.cdninstagram.com/vp/428c82f2c611126a3258aea7e8645540/5CC7F383/t51.2885-19/10818026_1514653228818777_1462958268_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-lax3-2.cdninstagram.com/vp/428c82f2c611126a3258aea7e8645540/5CC7F383/t51.2885-19/10818026_1514653228818777_1462958268_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "medium": "https://scontent-lax3-2.cdninstagram.com/vp/428c82f2c611126a3258aea7e8645540/5CC7F383/t51.2885-19/10818026_1514653228818777_1462958268_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "small": "https://scontent-lax3-2.cdninstagram.com/vp/428c82f2c611126a3258aea7e8645540/5CC7F383/t51.2885-19/10818026_1514653228818777_1462958268_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com"
+      },
+      "reach": "0.94",
+      "resonance": "0.33",
+      "audience": "167233",
+      "relevance": "0.99",
+      "trends": {
+        "instagram_followers": {
+          "net": -37.0,
+          "percent": -0.0041,
+          "current": 9020.0,
+          "previous": 9057.0
+        },
+        "platform_audience": {
+          "net": -189.0,
+          "percent": -0.0012,
+          "current": 159125.0,
+          "previous": 159314.0
+        },
+        "twitter_followers_count": {
+          "net": -783.0,
+          "percent": -0.006,
+          "current": 130531.0,
+          "previous": 131314.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 1810.0,
+          "previous": 1810.0
+        },
+        "pinterest_followers": {
+          "net": 631.0,
+          "percent": 0.0368,
+          "current": 17764.0,
+          "previous": 17133.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 1810, "eng_rate_max": 1.0e-4 },
+        "instagram.com": { "audience_sum": 8993 },
+        "pinterest.com": { "audience_sum": 17764 },
+        "twitter.com": { "audience_sum": 130531, "eng_rate_max": 4.0e-4 },
+        "youtube.com": { "audience_sum": 0, "eng_rate_max": 0.0 }
+      },
+      "post_hits": "41132"
+    },
+    {
+      "uid": "f6438279d9be41ebaa95ae7856b1ac51",
+      "name": "Gordon Linoff",
+      "description": "Recognized authority on business applications of data mining, including survival data mining.\n\nFounder of Data Miners, Inc. (www.data-miners.com), a consultancy specializing in the analysis of large volumes of data for marketing and CRM purposes. Many clients are in subscription-based industries such as telecommunications, financial services, and newspapers.\n\nI am currently and have been employed by Data Miners since 1998. My work history includes positions where I was or am a part-time consultant, typically because someone else on LinkedIn recognized me as a \"colleague\".\n\nAuthor of four books:\n\"Data Analysis Using SQL and Excel\", 2008. Gordon S. Linoff. (http://www.amazon.com/exec/obidos/ASIN/0471416096/thedataminers)\n\n\"Data Mining Techniques for Marketing, Sales, and Customer Relationship Management, Second Edition\", 2004. Michael J. A. Berry and Gordon S. Linoff. (http://www.amazon.com/exec/obidos/ASIN/0471470643/thedataminers)\n\n\"Mining the Web: Transforming Customer Data Into Customer Value\", 2001. Michael J. A. Berry and Gordon S. Linoff. (http://www.amazon.com/exec/obidos/ASIN/0471416096/thedataminers)\n\n\"Mastering Data Mining: The Art and Science of Customer Relationship Management\", 1999. Michael J. A. Berry and Gordon S. Linoff. (http://www.amazon.com/exec/obidos/ASIN/0471331236/thedataminers)\n\nAuthor (with Michael Berry) of three well-regarded books in the field: Data Mining Techniques, Mastering Data Mining, and Mining the Web. All are published by John Wiley & Sons.\n\nSpecialties: Data mining\nPredictive Modeling\nSurvival Analysis, particularly business applications\nChurn and Retention Modeling\nCustomer-Level Forecasting\nCustomer Segmentation\nAnalysis of Large Volumes of Data in SQL Databases",
+      "primary_affiliation": "Columbia University",
+      "title": "Adjunct Professor",
+      "is_brand": false,
+      "location": "Hauppauge, Suffolk County, New York, United States",
+      "thumbnail_url": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/005/391/3ee103e.jpg",
+      "avatar": {
+        "large": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/005/391/3ee103e.jpg",
+        "medium": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/005/391/3ee103e.jpg",
+        "small": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/005/391/3ee103e.jpg"
+      },
+      "reach": "0.99",
+      "resonance": "0.88",
+      "audience": "677863",
+      "relevance": "0.87",
+      "trends": {
+        "platform_audience": {
+          "net": 4128.7099618,
+          "percent": 0.0116,
+          "current": 361445.78313253,
+          "previous": 357317.07317073
+        },
+        "stackoverflow_monthly_reach": {
+          "net": 4128.7099618,
+          "percent": 0.0116,
+          "current": 361445.78313253,
+          "previous": 357317.07317073
+        }
+      },
+      "platform_data": { "stackoverflow.com": { "audience_sum": 361445 } },
+      "post_hits": "923"
+    },
+    {
+      "uid": "324f7f516e744bf7a073cbed3eaecfde",
+      "name": "Lalo Villar",
+      "description": "Comediante Dando el Rol por la vida. Engordando con @larutagarnacha en Youtube. Snapchat: lalovillarp Contacto: eduardovillarp@yahoo.com.mx",
+      "primary_affiliation": "La Ruta de la Garnacha",
+      "title": "Blogger",
+      "is_brand": false,
+      "location": "Mexico City, Mexico City, Mexico",
+      "thumbnail_url": "https://scontent-lax3-2.cdninstagram.com/vp/a206e2e7ce3ff46d98bf920ab8af3880/5CCA83FF/t51.2885-19/s320x320/41816207_479393299136759_4264617652632158208_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-lax3-2.cdninstagram.com/vp/a206e2e7ce3ff46d98bf920ab8af3880/5CCA83FF/t51.2885-19/s320x320/41816207_479393299136759_4264617652632158208_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "medium": "https://scontent-lax3-2.cdninstagram.com/vp/a206e2e7ce3ff46d98bf920ab8af3880/5CCA83FF/t51.2885-19/s320x320/41816207_479393299136759_4264617652632158208_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "small": "https://scontent-lax3-2.cdninstagram.com/vp/a206e2e7ce3ff46d98bf920ab8af3880/5CCA83FF/t51.2885-19/s320x320/41816207_479393299136759_4264617652632158208_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com"
+      },
+      "reach": "0.99",
+      "resonance": "0.99",
+      "audience": "1884295",
+      "relevance": "0.85",
+      "trends": {
+        "instagram_followers": {
+          "net": 13934.0,
+          "percent": 0.0779,
+          "current": 192893.0,
+          "previous": 178959.0
+        },
+        "youtube_subscribers": {
+          "net": 10657.0,
+          "percent": 0.0129,
+          "current": 839816.0,
+          "previous": 829159.0
+        },
+        "platform_audience": {
+          "net": 25934.0,
+          "percent": 0.014,
+          "current": 1876299.0,
+          "previous": 1850365.0
+        },
+        "twitter_followers_count": {
+          "net": 1343.0,
+          "percent": 0.0475,
+          "current": 29619.0,
+          "previous": 28276.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 813971.0,
+          "previous": 813971.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 813971, "eng_rate_max": 0.0283 },
+        "instagram.com": { "audience_sum": 196179, "eng_rate_max": 0.041 },
+        "twitter.com": { "audience_sum": 29619, "eng_rate_max": 0.0032 },
+        "youtube.com": { "audience_sum": 844526, "eng_rate_max": 0.0033 }
+      },
+      "post_hits": "819"
+    },
+    {
+      "uid": "7bb2b131216f45c2a52d52251f4cf6f0",
+      "name": "Werner Dirr",
+      "description": "Gaming, Neuigkeiten, Videos & mehr!\n\nKontakt: youtube@burning-gamers.de",
+      "primary_affiliation": "",
+      "title": "Video Blogger",
+      "is_brand": false,
+      "location": "Hall in Tirol, Innsbruck-Land District, Tyrol, Austria",
+      "thumbnail_url": "https://scontent-dfw5-1.cdninstagram.com/vp/4e28a966a09bc3ffae3f5625d381433c/5CD718DE/t51.2885-19/s320x320/16110389_1904544446442975_6008932475743502336_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-dfw5-1.cdninstagram.com/vp/4e28a966a09bc3ffae3f5625d381433c/5CD718DE/t51.2885-19/s320x320/16110389_1904544446442975_6008932475743502336_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com",
+        "medium": "https://scontent-dfw5-1.cdninstagram.com/vp/4e28a966a09bc3ffae3f5625d381433c/5CD718DE/t51.2885-19/s320x320/16110389_1904544446442975_6008932475743502336_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com",
+        "small": "https://scontent-dfw5-1.cdninstagram.com/vp/4e28a966a09bc3ffae3f5625d381433c/5CD718DE/t51.2885-19/s320x320/16110389_1904544446442975_6008932475743502336_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com"
+      },
+      "reach": "0.91",
+      "resonance": "0.79",
+      "audience": "124987",
+      "relevance": "0.89",
+      "trends": {
+        "instagram_followers": {
+          "net": 2068.0,
+          "percent": 0.1498,
+          "current": 15876.0,
+          "previous": 13808.0
+        },
+        "youtube_subscribers": {
+          "net": 2123.0,
+          "percent": 0.0213,
+          "current": 101714.0,
+          "previous": 99591.0
+        },
+        "platform_audience": {
+          "net": 4223.0,
+          "percent": 0.0352,
+          "current": 124146.0,
+          "previous": 119923.0
+        },
+        "twitter_followers_count": {
+          "net": 32.0,
+          "percent": 0.0498,
+          "current": 675.0,
+          "previous": 643.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 5881.0,
+          "previous": 5881.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 5881, "eng_rate_max": 0.0126 },
+        "instagram.com": { "audience_sum": 16265, "eng_rate_max": 0.2076 },
+        "twitter.com": { "audience_sum": 675, "eng_rate_max": 0.0182 },
+        "youtube.com": { "audience_sum": 102166, "eng_rate_max": 0.0087 }
+      },
+      "post_hits": "4249"
+    },
+    {
+      "uid": "6f729c6c36e248438a228d8cdd80a633",
+      "name": "Kalyn Denny",
+      "description": "Creative Recipes for Carb-Conscious Living at http://KalynsKitchen.com. Slow Cooker/Pressure Cooker recipes at http://SlowCookerFromScratch.com.  And a side of Resisting!",
+      "primary_affiliation": "Kalyn's Kitchen",
+      "title": "Food Blogger",
+      "is_brand": false,
+      "location": "Salt Lake City, UT, United States",
+      "thumbnail_url": "https://scontent-lax3-2.cdninstagram.com/vp/a9487f8a3b55d4a848131e07692a9c95/5CB2B021/t51.2885-19/11311379_798725686910558_1687232355_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-lax3-2.cdninstagram.com/vp/a9487f8a3b55d4a848131e07692a9c95/5CB2B021/t51.2885-19/11311379_798725686910558_1687232355_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "medium": "https://scontent-lax3-2.cdninstagram.com/vp/a9487f8a3b55d4a848131e07692a9c95/5CB2B021/t51.2885-19/11311379_798725686910558_1687232355_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "small": "https://scontent-lax3-2.cdninstagram.com/vp/a9487f8a3b55d4a848131e07692a9c95/5CB2B021/t51.2885-19/11311379_798725686910558_1687232355_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com"
+      },
+      "reach": "0.95",
+      "resonance": "0.98",
+      "audience": "724422",
+      "relevance": "0.84",
+      "trends": {
+        "instagram_followers": {
+          "net": 249.0,
+          "percent": 0.0226,
+          "current": 11278.0,
+          "previous": 11029.0
+        },
+        "platform_audience": {
+          "net": 255.0,
+          "percent": 4.0e-4,
+          "current": 724300.0,
+          "previous": 724045.0
+        },
+        "twitter_followers_count": {
+          "net": 6.0,
+          "percent": 5.0e-4,
+          "current": 11744.0,
+          "previous": 11738.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 318470.0,
+          "previous": 318470.0
+        },
+        "pinterest_followers": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 382808.0,
+          "previous": 382808.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 318470, "eng_rate_max": 3.0e-4 },
+        "instagram.com": { "audience_sum": 11400, "eng_rate_max": 0.0082 },
+        "pinterest.com": { "audience_sum": 382808 },
+        "twitter.com": { "audience_sum": 11744, "eng_rate_max": 1.0e-4 },
+        "youtube.com": { "audience_sum": 0 }
+      },
+      "post_hits": "843"
+    },
+    {
+      "uid": "d2676e54b3ca4c08a487357865afbc12",
+      "name": "Connor McDonald",
+      "description": "Keen on tech, keen on fitness, keen on coffee, keen on gin, keen Dad, keen on sarcasm [Normal stuff: views here mine not my employer]",
+      "primary_affiliation": "Oracle",
+      "title": "Developer Advocate",
+      "is_brand": false,
+      "location": "Perth, Western Australia, Australia",
+      "thumbnail_url": "https://scontent-dfw5-2.cdninstagram.com/vp/c4c4507483f32dd723826741b834c72e/5CB952CC/t51.2885-19/20759650_261295881035387_3724057376609796096_a.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-dfw5-2.cdninstagram.com/vp/c4c4507483f32dd723826741b834c72e/5CB952CC/t51.2885-19/20759650_261295881035387_3724057376609796096_a.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com",
+        "medium": "https://scontent-dfw5-2.cdninstagram.com/vp/c4c4507483f32dd723826741b834c72e/5CB952CC/t51.2885-19/20759650_261295881035387_3724057376609796096_a.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com",
+        "small": "https://scontent-dfw5-2.cdninstagram.com/vp/c4c4507483f32dd723826741b834c72e/5CB952CC/t51.2885-19/20759650_261295881035387_3724057376609796096_a.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com"
+      },
+      "reach": "0.56",
+      "resonance": "0.8",
+      "audience": "8636",
+      "relevance": "0.94",
+      "trends": {
+        "youtube_subscribers": {
+          "net": 58.0,
+          "percent": 0.0177,
+          "current": 3326.0,
+          "previous": 3268.0
+        },
+        "platform_audience": {
+          "net": 154.0,
+          "percent": 0.0195,
+          "current": 8059.0,
+          "previous": 7905.0
+        },
+        "twitter_followers_count": {
+          "net": 96.0,
+          "percent": 0.0207,
+          "current": 4733.0,
+          "previous": 4637.0
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 142, "eng_rate_max": 0.0489 },
+        "pinterest.com": { "audience_sum": 0 },
+        "twitter.com": { "audience_sum": 4733, "eng_rate_max": 0.0013 },
+        "youtube.com": { "audience_sum": 3326, "eng_rate_max": 0.0017 }
+      },
+      "post_hits": "1613"
+    },
+    {
+      "uid": "5bbf3b7b995a4e4b885a86743eb644c9",
+      "name": "Alejandra Suarez",
+      "description": "Tuits que además de resultar muy interesantes, también pueden ser bastante útiles.",
+      "primary_affiliation": "",
+      "title": "",
+      "is_brand": false,
+      "location": "Madrid, Madrid, Community of Madrid, Spain",
+      "thumbnail_url": "https://scontent-frt3-2.cdninstagram.com/vp/cb5cdb52b11bd5d79a0665646bd8457f/5CD94AB5/t51.2885-19/s320x320/37905056_294298841134812_8838520401375002624_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frt3-2.cdninstagram.com/vp/cb5cdb52b11bd5d79a0665646bd8457f/5CD94AB5/t51.2885-19/s320x320/37905056_294298841134812_8838520401375002624_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+        "medium": "https://scontent-frt3-2.cdninstagram.com/vp/cb5cdb52b11bd5d79a0665646bd8457f/5CD94AB5/t51.2885-19/s320x320/37905056_294298841134812_8838520401375002624_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+        "small": "https://scontent-frt3-2.cdninstagram.com/vp/cb5cdb52b11bd5d79a0665646bd8457f/5CD94AB5/t51.2885-19/s320x320/37905056_294298841134812_8838520401375002624_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com"
+      },
+      "reach": "0.85",
+      "resonance": "0.56",
+      "audience": "59031",
+      "relevance": "0.92",
+      "trends": {
+        "instagram_followers": {
+          "net": 10.0,
+          "percent": 0.0067,
+          "current": 1503.0,
+          "previous": 1493.0
+        },
+        "platform_audience": {
+          "net": 257.0,
+          "percent": 0.0044,
+          "current": 59021.0,
+          "previous": 58764.0
+        },
+        "twitter_followers_count": {
+          "net": 247.0,
+          "percent": 0.0043,
+          "current": 57518.0,
+          "previous": 57271.0
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 1513 },
+        "twitter.com": { "audience_sum": 57518, "eng_rate_max": 0.0 }
+      },
+      "post_hits": "1000"
+    },
+    {
+      "uid": "d58982782d464a3dab20332dd73ca697",
+      "name": "Mike Quindazzi",
+      "description": "US #Digital Alliances Sales Leader @PwCUS • EC & Board @LAEDC • Tweets for the C-Suite #CEO #CFO #CMO #CIO #CDO #CISO on Global #Megatrends & #EmergingTech!",
+      "primary_affiliation": "PwC",
+      "title": "Managing Director Sales Marketing",
+      "is_brand": false,
+      "location": "Los Angeles, CA, United States",
+      "thumbnail_url": "https://scontent-dfw5-1.cdninstagram.com/vp/b86b7fe4d99e544db993ae788f82d14e/5CD9AA2F/t51.2885-19/s320x320/17494573_409253602781333_3170081641389359104_a.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-dfw5-1.cdninstagram.com/vp/b86b7fe4d99e544db993ae788f82d14e/5CD9AA2F/t51.2885-19/s320x320/17494573_409253602781333_3170081641389359104_a.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com",
+        "medium": "https://scontent-dfw5-1.cdninstagram.com/vp/b86b7fe4d99e544db993ae788f82d14e/5CD9AA2F/t51.2885-19/s320x320/17494573_409253602781333_3170081641389359104_a.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com",
+        "small": "https://scontent-dfw5-1.cdninstagram.com/vp/b86b7fe4d99e544db993ae788f82d14e/5CD9AA2F/t51.2885-19/s320x320/17494573_409253602781333_3170081641389359104_a.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com"
+      },
+      "reach": "0.91",
+      "resonance": "0.69",
+      "audience": "114747",
+      "relevance": "0.88",
+      "trends": {
+        "instagram_followers": {
+          "net": 295.0,
+          "percent": 0.0555,
+          "current": 5612.0,
+          "previous": 5317.0
+        },
+        "platform_audience": {
+          "net": 3255.0,
+          "percent": 0.0292,
+          "current": 114732.0,
+          "previous": 111477.0
+        },
+        "twitter_followers_count": {
+          "net": 2960.0,
+          "percent": 0.0279,
+          "current": 109120.0,
+          "previous": 106160.0
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 5612, "eng_rate_max": 0.0074 },
+        "twitter.com": { "audience_sum": 109120, "eng_rate_max": 0.0011 },
+        "youtube.com": { "audience_sum": 15 }
+      },
+      "post_hits": "1481"
+    },
+    {
+      "uid": "d48459cb914e4470ba6257f8fe3ed7fe",
+      "name": "Doug Stevenson",
+      "description": "Google Developer Advocate with @Firebase. Public speaker. Talk show host. Wordsmith.  Old-school gamer. Vegetarian. Craft beer lover. Go @SanJoseSharks!",
+      "primary_affiliation": "Google",
+      "title": "Senior Developer Advocate",
+      "is_brand": false,
+      "location": "Sunnyvale, Santa Clara County, California, United States",
+      "thumbnail_url": "http://pbs.twimg.com/profile_images/765801968887533568/hzWyS9I_.jpg",
+      "avatar": {
+        "large": "http://pbs.twimg.com/profile_images/765801968887533568/hzWyS9I_.jpg",
+        "medium": "http://pbs.twimg.com/profile_images/765801968887533568/hzWyS9I__bigger.jpg",
+        "small": "http://pbs.twimg.com/profile_images/765801968887533568/hzWyS9I__normal.jpg"
+      },
+      "reach": "0.84",
+      "resonance": "0.99",
+      "audience": "50782",
+      "relevance": "0.84",
+      "trends": {
+        "twitter_followers_count": {
+          "net": 133.0,
+          "percent": 0.0266,
+          "current": 5127.0,
+          "previous": 4994.0
+        },
+        "stackoverflow_monthly_reach": {
+          "net": -162.29712859,
+          "percent": -0.0111,
+          "current": 14444.44444444,
+          "previous": 14606.74157303
+        },
+        "platform_audience": {
+          "net": -29.29712859,
+          "percent": -0.0015,
+          "current": 19571.44444444,
+          "previous": 19600.74157303
+        }
+      },
+      "platform_data": {
+        "stackoverflow.com": { "audience_sum": 14444 },
+        "twitter.com": { "audience_sum": 5127, "eng_rate_max": 0.0013 }
+      },
+      "post_hits": "363"
+    },
+    {
+      "uid": "881a866b9e6f451f86f92208e7bad32d",
+      "name": "Mark Rotteveel",
+      "description": "Software developer, Nerd, whatever...",
+      "primary_affiliation": "bol.com",
+      "title": "Software Engineer",
+      "is_brand": false,
+      "location": "Den Haag, Den Haag, Zuid-Holland, Netherlands",
+      "thumbnail_url": "http://pbs.twimg.com/profile_images/1274130791/zeil_mark_square.jpg",
+      "avatar": {
+        "large": "http://pbs.twimg.com/profile_images/1274130791/zeil_mark_square.jpg",
+        "medium": "http://pbs.twimg.com/profile_images/1274130791/zeil_mark_square_bigger.jpg",
+        "small": "http://pbs.twimg.com/profile_images/1274130791/zeil_mark_square_normal.jpg"
+      },
+      "reach": "0.93",
+      "resonance": "0.87",
+      "audience": "141503",
+      "relevance": "0.84",
+      "trends": {
+        "stackoverflow_monthly_reach": {
+          "net": -453.51473923,
+          "percent": -0.0101,
+          "current": 44444.44444444,
+          "previous": 44897.95918367
+        },
+        "platform_audience": {
+          "net": -453.51473923,
+          "percent": -0.0101,
+          "current": 44444.44444444,
+          "previous": 44897.95918367
+        }
+      },
+      "platform_data": {
+        "stackoverflow.com": { "audience_sum": 44444 },
+        "twitter.com": { "audience_sum": 211, "eng_rate_max": 0.0066 }
+      },
+      "post_hits": "327"
+    },
+    {
+      "uid": "4bede7ae283349e8a2564dce9ca3bbc5",
+      "name": "VonVictor Valentino Rosenchild",
+      "description": "@HubBucket Inc. Founder and CEO | Former University #Computer #Science Instructor | Former #CTO, #CIO, #CISO | U.S. Navy Intelligence #Veteran 🌊🌊🌊",
+      "primary_affiliation": "HubBucket Inc.",
+      "title": "Founder, Chairman, President and CEO",
+      "is_brand": false,
+      "location": "New York, New York, United States",
+      "thumbnail_url": "http://pbs.twimg.com/profile_images/938092733939572736/RqxbQc2e.jpg",
+      "avatar": {
+        "large": "http://pbs.twimg.com/profile_images/938092733939572736/RqxbQc2e.jpg",
+        "medium": "http://pbs.twimg.com/profile_images/938092733939572736/RqxbQc2e_bigger.jpg",
+        "small": "http://pbs.twimg.com/profile_images/938092733939572736/RqxbQc2e_normal.jpg"
+      },
+      "reach": "0.67",
+      "resonance": "0.74",
+      "audience": "15201",
+      "relevance": "0.9",
+      "trends": {
+        "twitter_followers_count": {
+          "net": 70.0,
+          "percent": 0.0047,
+          "current": 15000.0,
+          "previous": 14930.0
+        },
+        "platform_audience": {
+          "net": 70.0,
+          "percent": 0.0047,
+          "current": 15000.0,
+          "previous": 14930.0
+        }
+      },
+      "platform_data": {
+        "twitter.com": { "audience_sum": 15000, "eng_rate_max": 0.0017 },
+        "youtube.com": { "audience_sum": 29 }
+      },
+      "post_hits": "6533"
+    },
+    {
+      "uid": "9508fb57ea9130a39fb214280d5a2292",
+      "name": "Kevin Cassidy",
+      "description": "The official Twitter account for http://GoNintendo.com.  My beard belies my femininity.  Certified fresh by @GameXplain.",
+      "primary_affiliation": "GoNintendo",
+      "title": "Owner",
+      "is_brand": false,
+      "location": "New York, NY, United States",
+      "thumbnail_url": "https://scontent-frt3-2.cdninstagram.com/vp/0e326f7fb3119f5fbd688da026ed4aff/5CC339B5/t51.2885-19/10644080_355190624633828_2003354157_a.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frt3-2.cdninstagram.com/vp/0e326f7fb3119f5fbd688da026ed4aff/5CC339B5/t51.2885-19/10644080_355190624633828_2003354157_a.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+        "medium": "https://scontent-frt3-2.cdninstagram.com/vp/0e326f7fb3119f5fbd688da026ed4aff/5CC339B5/t51.2885-19/10644080_355190624633828_2003354157_a.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+        "small": "https://scontent-frt3-2.cdninstagram.com/vp/0e326f7fb3119f5fbd688da026ed4aff/5CC339B5/t51.2885-19/10644080_355190624633828_2003354157_a.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com"
+      },
+      "reach": "0.89",
+      "resonance": "0.94",
+      "audience": "82581",
+      "relevance": "0.81",
+      "trends": {
+        "instagram_followers": {
+          "net": -107.0,
+          "percent": -0.0092,
+          "current": 11500.0,
+          "previous": 11607.0
+        },
+        "youtube_subscribers": {
+          "net": 4.0,
+          "percent": 2.0e-4,
+          "current": 18340.0,
+          "previous": 18336.0
+        },
+        "platform_audience": {
+          "net": 311.0,
+          "percent": 0.0038,
+          "current": 81507.0,
+          "previous": 81196.0
+        },
+        "twitter_followers_count": {
+          "net": 414.0,
+          "percent": 0.0118,
+          "current": 35414.0,
+          "previous": 35000.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 16253.0,
+          "previous": 16253.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 16253, "eng_rate_max": 0.001 },
+        "instagram.com": { "audience_sum": 11467, "eng_rate_max": 0.0209 },
+        "twitter.com": { "audience_sum": 35642, "eng_rate_max": 0.0014 },
+        "youtube.com": { "audience_sum": 18322, "eng_rate_max": 0.009 }
+      },
+      "post_hits": "619"
+    },
+    {
+      "uid": "164fe60af8a847139eaf2e03dc033dd8",
+      "name": "Alberto Morillo",
+      "description": "11-time Microsoft MVP. MSDN Community Contributor Award 2009. 3-time Microsoft Community Contributor Award. MSDN Forum Moderator for Microsoft SQL Server.",
+      "primary_affiliation": "Small World Financial Services",
+      "title": "DBA Consultant",
+      "is_brand": false,
+      "location": "Santo Domingo, Distrito Nacional, Dominican Republic",
+      "thumbnail_url": "https://scontent-frx5-1.cdninstagram.com/vp/9aa8cca6cf3484da60cd09716be72d8e/5CD04E9D/t51.2885-19/s320x320/35294813_244511699689774_5825894919641759744_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frx5-1.cdninstagram.com/vp/9aa8cca6cf3484da60cd09716be72d8e/5CD04E9D/t51.2885-19/s320x320/35294813_244511699689774_5825894919641759744_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+        "medium": "https://scontent-frx5-1.cdninstagram.com/vp/9aa8cca6cf3484da60cd09716be72d8e/5CD04E9D/t51.2885-19/s320x320/35294813_244511699689774_5825894919641759744_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+        "small": "https://scontent-frx5-1.cdninstagram.com/vp/9aa8cca6cf3484da60cd09716be72d8e/5CD04E9D/t51.2885-19/s320x320/35294813_244511699689774_5825894919641759744_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com"
+      },
+      "reach": "0.68",
+      "resonance": "1",
+      "audience": "16110",
+      "relevance": "0.83",
+      "trends": {
+        "instagram_followers": {
+          "net": 1.0,
+          "percent": 0.0017,
+          "current": 605.0,
+          "previous": 604.0
+        },
+        "platform_audience": {
+          "net": 210.15032679,
+          "percent": 0.0434,
+          "current": 5049.44444444,
+          "previous": 4839.29411765
+        },
+        "stackoverflow_monthly_reach": {
+          "net": 209.15032679,
+          "percent": 0.0494,
+          "current": 4444.44444444,
+          "previous": 4235.29411765
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 605 },
+        "stackoverflow.com": { "audience_sum": 4444 },
+        "twitter.com": { "audience_sum": 494, "eng_rate_max": 0.0018 },
+        "youtube.com": { "audience_sum": 45 }
+      },
+      "post_hits": "490"
+    },
+    {
+      "uid": "ccfb261871251a4c876e09f999ae53a2",
+      "name": "Jeff Smith",
+      "description": "Oracle SQLDev, REST Data Services product manager @Oracle. Guarantee annoying but engaging tweets. Views are my own. Storyteller. #databases #rest #tech #beer",
+      "primary_affiliation": "Oracle",
+      "title": "Senior Principal Product Manager",
+      "is_brand": false,
+      "location": "Cary, NC, United States",
+      "thumbnail_url": "https://scontent-amt2-1.cdninstagram.com/vp/82b89f8d22e7b141c464fe8534880300/5CBE93D4/t51.2885-19/11379336_108400539511574_682902245_a.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-amt2-1.cdninstagram.com/vp/82b89f8d22e7b141c464fe8534880300/5CBE93D4/t51.2885-19/11379336_108400539511574_682902245_a.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com",
+        "medium": "https://scontent-amt2-1.cdninstagram.com/vp/82b89f8d22e7b141c464fe8534880300/5CBE93D4/t51.2885-19/11379336_108400539511574_682902245_a.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com",
+        "small": "https://scontent-amt2-1.cdninstagram.com/vp/82b89f8d22e7b141c464fe8534880300/5CBE93D4/t51.2885-19/11379336_108400539511574_682902245_a.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com"
+      },
+      "reach": "0.64",
+      "resonance": "0.75",
+      "audience": "12892",
+      "relevance": "0.88",
+      "trends": {
+        "youtube_subscribers": {
+          "net": 57.0,
+          "percent": 0.0161,
+          "current": 3604.0,
+          "previous": 3547.0
+        },
+        "platform_audience": {
+          "net": 160.0,
+          "percent": 0.0147,
+          "current": 11030.0,
+          "previous": 10870.0
+        },
+        "twitter_followers_count": {
+          "net": 103.0,
+          "percent": 0.0141,
+          "current": 7426.0,
+          "previous": 7323.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 297 },
+        "instagram.com": { "audience_sum": 385, "eng_rate_max": 0.0389 },
+        "pinterest.com": { "audience_sum": 69 },
+        "twitter.com": { "audience_sum": 7426, "eng_rate_max": 4.0e-4 },
+        "youtube.com": { "audience_sum": 3622 }
+      },
+      "post_hits": "896"
+    },
+    {
+      "uid": "ce7b7e4cafbf494c85b6df227ba59b34",
+      "name": "Daniel Dhalucard (Dhalucard)",
+      "description": "Youtuber | Streamer | Majin | Vampir | Global Elite (Spiel unabhängig :D) | #MajinLeague",
+      "primary_affiliation": "",
+      "title": "Gamer",
+      "is_brand": false,
+      "location": "Dortmund, Arnsberg, North Rhine-Westphalia, Germany",
+      "thumbnail_url": "https://scontent-frx5-1.cdninstagram.com/vp/e94700ffef0f4fdf418db8efbb8ba9a8/5CCF7C17/t51.2885-19/10598571_1441873192766815_83611364_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frx5-1.cdninstagram.com/vp/e94700ffef0f4fdf418db8efbb8ba9a8/5CCF7C17/t51.2885-19/10598571_1441873192766815_83611364_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+        "medium": "https://scontent-frx5-1.cdninstagram.com/vp/e94700ffef0f4fdf418db8efbb8ba9a8/5CCF7C17/t51.2885-19/10598571_1441873192766815_83611364_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+        "small": "https://scontent-frx5-1.cdninstagram.com/vp/e94700ffef0f4fdf418db8efbb8ba9a8/5CCF7C17/t51.2885-19/10598571_1441873192766815_83611364_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com"
+      },
+      "reach": "0.98",
+      "resonance": "0.58",
+      "audience": "692735",
+      "relevance": "0.84",
+      "trends": {
+        "instagram_followers": {
+          "net": 2440.0,
+          "percent": 0.0489,
+          "current": 52347.0,
+          "previous": 49907.0
+        },
+        "youtube_subscribers": {
+          "net": 1507.0,
+          "percent": 0.0037,
+          "current": 412675.0,
+          "previous": 411168.0
+        },
+        "platform_audience": {
+          "net": 11779.0,
+          "percent": 0.0173,
+          "current": 692039.0,
+          "previous": 680260.0
+        },
+        "twitter_followers_count": {
+          "net": 3185.0,
+          "percent": 0.0513,
+          "current": 65218.0,
+          "previous": 62033.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 12801.0,
+          "previous": 12801.0
+        },
+        "twitch_followers": {
+          "net": 4647.0,
+          "percent": 0.0322,
+          "current": 148998.0,
+          "previous": 144351.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 12801 },
+        "instagram.com": { "audience_sum": 52347, "eng_rate_max": 0.1546 },
+        "twitch.tv": { "audience_sum": 149407 },
+        "twitter.com": { "audience_sum": 65165, "eng_rate_max": 0.0029 },
+        "youtube.com": { "audience_sum": 413015, "eng_rate_max": 0.0044 }
+      },
+      "post_hits": "3827"
+    },
+    {
+      "uid": "dd037e269d30459fb81f08847c524a92",
+      "name": "Lothar Behrens",
+      "description": "I am a #software #developer with passion for #MDSD. I am searching for developers as one for my #project is too few. Please retweet my pinned tweet!",
+      "primary_affiliation": "",
+      "title": "Software Developer",
+      "is_brand": false,
+      "location": "Frankfurt, Darmstadt, Hesse, Germany",
+      "thumbnail_url": "https://scontent-frx5-1.cdninstagram.com/vp/32e31950a8959d49a23c12902c85345b/5CCAA228/t51.2885-19/s150x150/13743673_1044071358961581_685115670_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frx5-1.cdninstagram.com/vp/32e31950a8959d49a23c12902c85345b/5CCAA228/t51.2885-19/s150x150/13743673_1044071358961581_685115670_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+        "medium": "https://scontent-frx5-1.cdninstagram.com/vp/32e31950a8959d49a23c12902c85345b/5CCAA228/t51.2885-19/s150x150/13743673_1044071358961581_685115670_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com",
+        "small": "https://scontent-frx5-1.cdninstagram.com/vp/32e31950a8959d49a23c12902c85345b/5CCAA228/t51.2885-19/s150x150/13743673_1044071358961581_685115670_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com"
+      },
+      "reach": "0.36",
+      "resonance": "0.89",
+      "audience": "3300",
+      "relevance": "0.9",
+      "trends": {
+        "twitter_followers_count": {
+          "net": -18.0,
+          "percent": -0.0055,
+          "current": 3284.0,
+          "previous": 3302.0
+        },
+        "platform_audience": {
+          "net": -18.0,
+          "percent": -0.0055,
+          "current": 3284.0,
+          "previous": 3302.0
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 6 },
+        "pinterest.com": { "audience_sum": 3 },
+        "stackoverflow.com": { "audience_sum": 9 },
+        "twitter.com": { "audience_sum": 3282, "eng_rate_max": 0.0 }
+      },
+      "post_hits": "2002"
+    },
+    {
+      "uid": "304a8f9f3f4443b6a56ef4b2acf87dfc",
+      "name": "Alex Rogati",
+      "description": "SalaGiochi1980: Videogiochi, Nostalgia e Divertimento! - Videogames, nostalgia and fun! -  http://www.youtube.com/salagiochi1980  http://www.instagram.com/salagiochi1980",
+      "primary_affiliation": "",
+      "title": "Video Blogger",
+      "is_brand": false,
+      "location": "Ancona, Province of Ancona, Marche, Italy",
+      "thumbnail_url": "https://scontent-frt3-1.cdninstagram.com/vp/fc5f9c31d545e8cbc91dc8e4e6a3dadc/5CCE9332/t51.2885-19/10424540_607443596021075_2013222831_a.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frt3-1.cdninstagram.com/vp/fc5f9c31d545e8cbc91dc8e4e6a3dadc/5CCE9332/t51.2885-19/10424540_607443596021075_2013222831_a.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com",
+        "medium": "https://scontent-frt3-1.cdninstagram.com/vp/fc5f9c31d545e8cbc91dc8e4e6a3dadc/5CCE9332/t51.2885-19/10424540_607443596021075_2013222831_a.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com",
+        "small": "https://scontent-frt3-1.cdninstagram.com/vp/fc5f9c31d545e8cbc91dc8e4e6a3dadc/5CCE9332/t51.2885-19/10424540_607443596021075_2013222831_a.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com"
+      },
+      "reach": "0.78",
+      "resonance": "0.93",
+      "audience": "99017",
+      "relevance": "0.81",
+      "trends": {
+        "instagram_followers": {
+          "net": 322.0,
+          "percent": 0.0306,
+          "current": 10847.0,
+          "previous": 10525.0
+        },
+        "youtube_subscribers": {
+          "net": 219.0,
+          "percent": 0.0407,
+          "current": 5595.0,
+          "previous": 5376.0
+        },
+        "platform_audience": {
+          "net": 541.0,
+          "percent": 0.0056,
+          "current": 97607.0,
+          "previous": 97066.0
+        },
+        "facebook_pages_fans": {
+          "net": 0.0,
+          "percent": 0.0,
+          "current": 81165.0,
+          "previous": 81165.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 81165, "eng_rate_max": 0.0011 },
+        "instagram.com": { "audience_sum": 10947, "eng_rate_max": 0.0194 },
+        "twitch.tv": { "audience_sum": 843 },
+        "twitter.com": { "audience_sum": 467, "eng_rate_max": 3.0e-4 },
+        "youtube.com": { "audience_sum": 5595, "eng_rate_max": 0.0144 }
+      },
+      "post_hits": "1061"
+    },
+    {
+      "uid": "c50cc27fc9904b4ea2f7e3d5d5b06b4a",
+      "name": "Gabe Barajas",
+      "description": "Tacos & Miches\nKinda HollyWood But Still So Hood \nMiches Over Beaches \nI'm In Love With The Tacos \nQuieres TacosWay? \nAlways Al Millonsazo #TacosWay",
+      "primary_affiliation": "",
+      "title": "",
+      "is_brand": false,
+      "location": "Los Angeles County, California, United States",
+      "thumbnail_url": "https://scontent-lax3-1.cdninstagram.com/vp/c3675daa95202f42d04a42c444ec74f3/5CC102C4/t51.2885-19/s320x320/34313081_154316618759798_8036267235431415808_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-lax3-1.cdninstagram.com/vp/c3675daa95202f42d04a42c444ec74f3/5CC102C4/t51.2885-19/s320x320/34313081_154316618759798_8036267235431415808_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com",
+        "medium": "https://scontent-lax3-1.cdninstagram.com/vp/c3675daa95202f42d04a42c444ec74f3/5CC102C4/t51.2885-19/s320x320/34313081_154316618759798_8036267235431415808_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com",
+        "small": "https://scontent-lax3-1.cdninstagram.com/vp/c3675daa95202f42d04a42c444ec74f3/5CC102C4/t51.2885-19/s320x320/34313081_154316618759798_8036267235431415808_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com"
+      },
+      "reach": "0.96",
+      "resonance": "0.42",
+      "audience": "679060",
+      "relevance": "0.87",
+      "trends": {
+        "instagram_followers": {
+          "net": -4079.0,
+          "percent": -0.006,
+          "current": 677580.0,
+          "previous": 681659.0
+        },
+        "twitter_followers_count": {
+          "net": -7.0,
+          "percent": -0.0114,
+          "current": 606.0,
+          "previous": 613.0
+        },
+        "facebook_pages_fans": {
+          "net": 46.0,
+          "percent": 0.0232,
+          "current": 2032.0,
+          "previous": 1986.0
+        },
+        "platform_audience": {
+          "net": -4040.0,
+          "percent": -0.0059,
+          "current": 680218.0,
+          "previous": 684258.0
+        }
+      },
+      "platform_data": {
+        "facebook.com": { "audience_sum": 2032 },
+        "instagram.com": { "audience_sum": 676422, "eng_rate_max": 0.0122 },
+        "twitter.com": { "audience_sum": 606, "eng_rate_max": 2.0e-4 }
+      },
+      "post_hits": "1626"
+    },
+    {
+      "uid": "a20f9993e70a49b9af1ca3c9c651221b",
+      "name": "Taylor Otwell",
+      "description": "Husband to @abigailotwell. Web Developer. Founder of Laravel, Forge, Envoyer, Spark, and more.",
+      "primary_affiliation": "UserScape",
+      "title": "Software Engineer",
+      "is_brand": false,
+      "location": "Little Rock, Pulaski County, Arkansas, United States",
+      "thumbnail_url": "https://scontent-frt3-2.cdninstagram.com/vp/af2a9c4fb147e95fc831f7a6b9cebdd5/5CD5B6A9/t51.2885-19/s320x320/42400732_329276237631349_1281354955336187904_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-frt3-2.cdninstagram.com/vp/af2a9c4fb147e95fc831f7a6b9cebdd5/5CD5B6A9/t51.2885-19/s320x320/42400732_329276237631349_1281354955336187904_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+        "medium": "https://scontent-frt3-2.cdninstagram.com/vp/af2a9c4fb147e95fc831f7a6b9cebdd5/5CD5B6A9/t51.2885-19/s320x320/42400732_329276237631349_1281354955336187904_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+        "small": "https://scontent-frt3-2.cdninstagram.com/vp/af2a9c4fb147e95fc831f7a6b9cebdd5/5CD5B6A9/t51.2885-19/s320x320/42400732_329276237631349_1281354955336187904_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com"
+      },
+      "reach": "0.89",
+      "resonance": "0.79",
+      "audience": "82967",
+      "relevance": "0.81",
+      "trends": {
+        "instagram_followers": {
+          "net": 28.0,
+          "percent": 0.0305,
+          "current": 947.0,
+          "previous": 919.0
+        },
+        "youtube_subscribers": {
+          "net": 4.0,
+          "percent": 0.006,
+          "current": 671.0,
+          "previous": 667.0
+        },
+        "platform_audience": {
+          "net": 776.61616162,
+          "percent": 0.0106,
+          "current": 73857.0,
+          "previous": 73080.38383838
+        },
+        "twitter_followers_count": {
+          "net": 753.0,
+          "percent": 0.0111,
+          "current": 68409.0,
+          "previous": 67656.0
+        },
+        "stackoverflow_monthly_reach": {
+          "net": -8.38383838,
+          "percent": -0.0022,
+          "current": 3830.0,
+          "previous": 3838.38383838
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 958 },
+        "pinterest.com": { "audience_sum": 13 },
+        "stackoverflow.com": { "audience_sum": 3830 },
+        "twitter.com": { "audience_sum": 68409, "eng_rate_max": 8.0e-4 },
+        "youtube.com": { "audience_sum": 671 }
+      },
+      "post_hits": "373"
+    },
+    {
+      "uid": "b8a2007eb20c4c97993d410270faf358",
+      "name": "Lukas Eder",
+      "description": "How many DBA to change a lightbulb? One to many.\n\nWill tweet about all things #Java, #SQL, and #jOOQ",
+      "primary_affiliation": "Data Geekery GmbH",
+      "title": "Minister of Bringing Sanity Back to Java / SQL Development",
+      "is_brand": false,
+      "location": "Saint Gallen, St. Gallen, St. Gallen, Switzerland",
+      "thumbnail_url": "https://scontent-lax3-2.cdninstagram.com/vp/4f9d1d60ac582dae0ca186487c7be940/5CC86CF1/t51.2885-19/s150x150/13694346_1634349423545384_157103407_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+      "avatar": {
+        "large": "https://scontent-lax3-2.cdninstagram.com/vp/4f9d1d60ac582dae0ca186487c7be940/5CC86CF1/t51.2885-19/s150x150/13694346_1634349423545384_157103407_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "medium": "https://scontent-lax3-2.cdninstagram.com/vp/4f9d1d60ac582dae0ca186487c7be940/5CC86CF1/t51.2885-19/s150x150/13694346_1634349423545384_157103407_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com",
+        "small": "https://scontent-lax3-2.cdninstagram.com/vp/4f9d1d60ac582dae0ca186487c7be940/5CC86CF1/t51.2885-19/s150x150/13694346_1634349423545384_157103407_a.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com"
+      },
+      "reach": "0.97",
+      "resonance": "0.64",
+      "audience": "330279",
+      "relevance": "0.82",
+      "trends": {
+        "platform_audience": {
+          "net": 890.71821306,
+          "percent": 0.0065,
+          "current": 137018.05154639,
+          "previous": 136127.33333333
+        },
+        "twitter_followers_count": {
+          "net": 139.0,
+          "percent": 0.0154,
+          "current": 9183.0,
+          "previous": 9044.0
+        },
+        "stackoverflow_monthly_reach": {
+          "net": 751.71821306,
+          "percent": 0.0059,
+          "current": 127835.05154639,
+          "previous": 127083.33333333
+        }
+      },
+      "platform_data": {
+        "instagram.com": { "audience_sum": 36 },
+        "pinterest.com": { "audience_sum": 18 },
+        "stackoverflow.com": { "audience_sum": 127835 },
+        "twitter.com": { "audience_sum": 9183, "eng_rate_max": 4.0e-4 },
+        "youtube.com": { "audience_sum": 2 }
+      },
+      "post_hits": "797"
+    }
+  ],
+  "aggregations": {}
+}

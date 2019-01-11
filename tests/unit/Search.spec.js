@@ -1,8 +1,16 @@
 import { mount } from "@vue/test-utils";
 import Search from "@/components/Search.vue";
 import GetStarted from "@/components/GetStarted.vue";
+global.fetch = require("jest-fetch-mock");
+const sinon = require("sinon");
+
+const data = require("./searchData.json");
 
 describe("Search.vue", () => {
+  beforeEach(() => {
+    fetch.resetMocks();
+  });
+
   it("displays the search form", () => {
     const wrapper = mount(Search);
     expect(wrapper.contains("form")).toBeTruthy();
@@ -29,6 +37,8 @@ describe("Search.vue", () => {
   });
 
   it("adds term to list of terms with valid query", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
     const wrapper = mount(Search);
     const expected = ["software"];
     wrapper.setData({ query: expected[0] });
@@ -39,6 +49,8 @@ describe("Search.vue", () => {
   });
 
   it("adds multiple terms to list of terms", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
     const wrapper = mount(Search);
     const expected = ["software", "green", "database"];
     const form = wrapper.find("form");
@@ -52,6 +64,8 @@ describe("Search.vue", () => {
   });
 
   it("resets form input on valid query submission", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
     const wrapper = mount(Search);
     const expected = ["software"];
     const form = wrapper.find("form");
@@ -70,6 +84,8 @@ describe("Search.vue", () => {
   });
 
   it("hides display of get started message when there are terms", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
     const wrapper = mount(Search);
     const terms = ["software"];
     const form = wrapper.find("form");
@@ -80,6 +96,8 @@ describe("Search.vue", () => {
   });
 
   it("shows search terms when submitted", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
     const wrapper = mount(Search);
     const terms = ["software", "green energy"];
     const form = wrapper.find("form");
@@ -94,6 +112,8 @@ describe("Search.vue", () => {
   });
 
   it("removes search terms if you click on a term", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
     const wrapper = mount(Search);
     const terms = ["software"];
     const form = wrapper.find("form");
@@ -105,5 +125,44 @@ describe("Search.vue", () => {
     term.trigger("click");
 
     expect(wrapper.findAll(".search-term").length).toEqual(0);
+  });
+
+  it("removes influencer data when removing all terms", () => {
+    fetch.mockResponseOnce(JSON.stringify(data));
+
+    const wrapper = mount(Search);
+    const terms = ["software"];
+    const form = wrapper.find("form");
+
+    wrapper.setData({ query: terms[0] });
+    form.trigger("submit");
+
+    const term = wrapper.find(".search-term");
+    term.trigger("click");
+
+    expect(wrapper.vm.$data.influencers.length).toBe(0);
+  });
+
+  it("researches influencers when removing a term, but still have a term listed", () => {
+    fetch.mockResponses(
+      [JSON.stringify(data), { status: 200 }],
+      [JSON.stringify(data), { status: 200 }]
+    );
+
+    const spy = sinon.spy(Search.methods, "getInfluencers");
+    const wrapper = mount(Search);
+    const terms = ["software", "green energy"];
+    const form = wrapper.find("form");
+
+    wrapper.setData({ query: terms[0] });
+    form.trigger("submit");
+
+    wrapper.setData({ query: terms[1] });
+    form.trigger("submit");
+
+    const term = wrapper.find(".search-term");
+    term.trigger("click");
+
+    expect(spy.called).toBe(true);
   });
 });

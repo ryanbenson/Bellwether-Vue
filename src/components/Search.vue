@@ -16,6 +16,7 @@
 
 <script>
 import { isEmpty, containsBannedChars } from "@/libs/validation";
+import { getList } from "@/libs/http";
 import ErrorMessage from "@/components/ErrorMessage.vue";
 import GetStarted from "@/components/GetStarted.vue";
 import SearchTerm from "@/components/SearchTerm.vue";
@@ -66,6 +67,32 @@ export default {
 
       this.addTerm(query);
       this.query = "";
+      this.getInfluencers();
+    },
+
+    async getInfluencers() {
+      const data = await getList(this.termsString, 0);
+      const { influencers, page_info } = data;
+      const updatedInfluencers =
+        page_info.current_page === 0
+          ? [...influencers]
+          : [...this.influencers, ...influencers];
+
+      this.influencers = updatedInfluencers;
+      this.page_info = page_info;
+    },
+
+    resetInfluenerState() {
+      this.influencers = [];
+      this.page_info = {
+        current_page: 0,
+        has_more: false,
+        next_page: 1,
+        page_count: 0,
+        results_count: 0,
+        total_results_count: 0,
+        total_results_count_capped: true
+      };
     },
 
     resetError() {
@@ -84,12 +111,19 @@ export default {
 
     removeTerm(i) {
       this.terms.splice(i, 1);
+      this.terms.length > 0
+        ? this.getInfluencers()
+        : this.resetInfluenerState();
     }
   },
 
   computed: {
     hasTerms() {
       return this.terms.length > 0 ? true : false;
+    },
+    termsString() {
+      const list = this.terms.map(t => (t.includes(" ") ? `"${t}"` : t));
+      return list.join(",");
     }
   }
 };
