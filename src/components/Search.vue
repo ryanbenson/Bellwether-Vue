@@ -11,6 +11,10 @@
     <ul class="terms-wrap" v-else>
       <SearchTerm v-for="(term, i) in terms" :key="i" :term="term" v-on:remove="removeTerm(i)"></SearchTerm>
     </ul>
+
+    <div v-if="influencers" class="search__results">
+      <Person v-for="(person, i) in influencers" :key="i" :person="person"></Person>
+    </div>
   </div>
 </template>
 
@@ -20,13 +24,15 @@ import { getList } from "@/libs/http";
 import ErrorMessage from "@/components/ErrorMessage.vue";
 import GetStarted from "@/components/GetStarted.vue";
 import SearchTerm from "@/components/SearchTerm.vue";
+import Person from "@/components/Person.vue";
 
 export default {
   name: "User",
   components: {
     ErrorMessage,
     GetStarted,
-    SearchTerm
+    SearchTerm,
+    Person
   },
 
   data() {
@@ -137,5 +143,12 @@ export default {
   li:last-child {
     margin-right: 0;
   }
+}
+.search__results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
 }
 </style>

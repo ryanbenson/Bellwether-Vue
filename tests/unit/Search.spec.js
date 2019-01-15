@@ -1,6 +1,7 @@
 import { mount } from "@vue/test-utils";
 import Search from "@/components/Search.vue";
 import GetStarted from "@/components/GetStarted.vue";
+import Person from "@/components/Person.vue";
 global.fetch = require("jest-fetch-mock");
 const sinon = require("sinon");
 
@@ -164,5 +165,12 @@ describe("Search.vue", () => {
     term.trigger("click");
 
     expect(spy.called).toBe(true);
+  });
+
+  it("displays a Person when influencer data exists", () => {
+    const wrapper = mount(Search);
+    wrapper.setData({ influencers: data.influencers });
+
+    expect(wrapper.findAll(Person).length).toBe(data.influencers.length);
   });
 });
